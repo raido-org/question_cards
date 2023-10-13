@@ -52,14 +52,8 @@ function getCard() {
 	currentCardQuestion = cards[randomcard][1];
 
 	$(document).ready(function () {
-		$("html body").animate(
-			{
-				backgroundColor: colors[randomcolor],
-				color: colors[randomcolor]
-			},
-			500
-		);
 		$("#newcard").animate({ backgroundColor: colors[randomcolor] }, 500);
+		$(".cardbox").animate({ borderColor: colors[randomcolor] }, 500);
 		$("blockquote footer").animate({ color: colors[randomcolor] }, 500);
 		$("#cardtext").animate({ opacity: 0 }, 500, function () {
 			$(this).animate({ opacity: 1 }, 500);
