@@ -51,7 +51,7 @@ p {
 }
 
 .cardbox {
-    background: #fff;
+    background: #FBFAF5;
     max-width: 400px;
     min-height: 100px;
     margin: 10px;
@@ -81,6 +81,7 @@ p {
 #newcard {
     font-weight: bold;
     font-size: 17px;
+    color: #FBFAF5;
 }
 
 @media only screen and (max-width: 768px) {
