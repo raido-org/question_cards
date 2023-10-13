@@ -26,7 +26,7 @@ p {
 }
 
 blockquote {
-    margin: 30px 0px;
+    margin: 30px 5px;
     padding: 0px 0px;
 	  border-left: none;
 }
@@ -54,10 +54,11 @@ p {
     background: #fff;
     max-width: 500px;
     min-height: 100px;
-    border: 1px solid #222;
-    border-radius: 15px;
     margin: 10px;
     text-align: center;
+    border: 10px solid transparent;
+    border-radius: 15px;
+    transition: border-color 0.5s;
 }
 
 .cardbutton {
