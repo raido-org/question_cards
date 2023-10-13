@@ -8,6 +8,7 @@ function inIframe() {
 
 var colors = ["#fbb102", "#44a264", "#3d3182", "#202143"];
 
+/*
 var cards = [
 	[
     "Zia føler ikke, at hun har noget til fælles med sine holdkammerater, fordi mange af dem er ældre end hende og har børn.",
@@ -370,6 +371,7 @@ var cards = [
     "LÆREPLADS"
 ]
 ];
+*/
 
 var currentCardContext = "";
 var currentCardQuestion = "";
