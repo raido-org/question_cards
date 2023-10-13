@@ -1,4 +1,4 @@
-var colors = ["#fbb102", "#44a264", "#3d3182", "#202143"];
+var colors = ["#fbb102", "#44a264", "#3d3182", "#202143", "#f4efe6", "#ddcea8", "#ffdf73"];
 var currentCardContext = "";
 var currentCardQuestion = "";
 var randomcard = "";
