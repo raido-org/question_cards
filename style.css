@@ -58,7 +58,7 @@ p {
     text-align: center;
     border: 10px solid transparent;
     border-radius: 15px;
-    transition: border-color 0.5s;
+    transition: border-color;
 }
 
 .cardbutton {
