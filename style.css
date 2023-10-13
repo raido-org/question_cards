@@ -10,15 +10,15 @@ p {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 23px;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 p {
@@ -75,6 +75,7 @@ p {
     height: 60px;
     border: none;
     background: #490A3D;
+    border-radius: 10px;
 }
 
 #newcard {
@@ -84,16 +85,16 @@ p {
 
 @media only screen and (max-width: 768px) {
     #cardtext {
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .container {
-        margin-right: 20px;
+        margin-right: 15px;
     }
 }
 
 @media only screen and (max-width: 320px) {
     #cardtext {
-        font-size: 18px;
+        font-size: 13px;
     }
 }
